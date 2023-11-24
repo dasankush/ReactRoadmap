@@ -32,8 +32,8 @@ const newPeople = people.map((people)=>{
         firstName: people.name.toUpperCase(),
         oldAge: people.age + 20
     })
-})
-console.log(newPeople)
+}) 
+console.log(newPeople);
 
 
 const names = people.map((people) => `<h2>${people.name}</h2>`);
